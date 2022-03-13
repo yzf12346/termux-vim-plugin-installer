@@ -2,7 +2,7 @@
 
 # 如何使用
 
-安装 git
+安装 git  
 `apt install git`
 
 克隆至本地  
