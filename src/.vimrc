@@ -1,6 +1,4 @@
-au VimLeave * mks! ~/.vim/Session.vim
-silent :source ~/.vim/Session.vim "不直接source session.vim!否则有一个提示窗口
-
+nmap rp :!clear;sh run.sh
 nmap rn :CocCommand document.renameCurrentWord<CR> 
 "python自动utf-8
 
