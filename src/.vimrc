@@ -4,7 +4,7 @@ nmap rn :CocCommand document.renameCurrentWord<CR>
 
 autocmd BufNewFile *.py call setline(1,"# -*- coding: utf-8 -*-")
 
-autocmd BufWinEnter *.py set foldmethod=indent
+"autocmd BufWinEnter *.py set foldmethod=indent
 
 set foldmethod=marker
 "使vim支持鼠标（触摸屏）
@@ -54,7 +54,7 @@ set showmode
 "设置leader键为“，”
 let mapleader=","
 "开启代码折叠
-autocmd vimenter *.py set foldmethod=indent
+"autocmd vimenter *.py set foldmethod=indent
 "开启rainBow
 let g:rainbow_active = 1
 "配置插件列表
