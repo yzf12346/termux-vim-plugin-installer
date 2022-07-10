@@ -29,3 +29,7 @@ bash src/install.bash <你需要的语言>
 * json
 * web(html js css)
 * shell
+
+感谢    
+[neoclide/coc.nvim](https://github.com/neoclide/coc.nvim)   
+[junegunn/vim-plug](https://github.com/junegunn/vim-plug)   
