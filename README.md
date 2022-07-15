@@ -29,6 +29,10 @@ bash src/install.bash <你需要的语言>
 * json
 * web(html js css)
 * shell
+* swift
+* java
+* sql
+
 
 感谢    
 [neoclide/coc.nvim](https://github.com/neoclide/coc.nvim)   
