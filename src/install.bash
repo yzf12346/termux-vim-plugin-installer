@@ -24,6 +24,7 @@ PLUG_MAP=(
   ["swift"]="coc-sourcekit"
   ["sql"]="coc-sql"
   ["glsl"]="coc-glslx"
+  ["java"]="coc-java"
 )
 APT_MAP=(
   ["typescript"]="npm i typescript -g"
@@ -32,6 +33,7 @@ APT_MAP=(
   ["python2"]="apt install python2 -y"
   ["c++"]="apt install clang -y"
   ["c"]="apt install clang -y"
+  ["java"]="apt install openjdk-17"
   )
 readonly CURRENT_DIR
 
