@@ -10,7 +10,7 @@ apt install git
 克隆至本地  
 ```
 cd ~
-git clone https://github.com/yzf12346/vim-coc-config-utils.git
+git clone https://github.com/yzf12346/termux-vim-plugin-installer
 cd vim-coc-config-utils
 ```
 
