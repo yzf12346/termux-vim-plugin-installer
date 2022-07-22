@@ -11,13 +11,13 @@ apt install git
 ```
 cd ~
 git clone https://github.com/yzf12346/termux-vim-plugin-installer
-cd vim-coc-config-utils
+cd termux-vim-plugin-installer
 ```
 
 使用  
 ```
 cd ~
-cd vim-coc-config-utils
+cd termux-vim-plugin-installer
 bash src/install.bash <你需要的语言>
 ```
 
