@@ -78,7 +78,7 @@ Plug 'Chiel92/vim-autoformat'
 Plug 'Eric-Song-Nop/vim-glslx'
 Plug 'w0rp/ale'
 "自动括号闭合
-Plug 'jiangmiao/auto-pairs'
+"Plug 'jiangmiao/auto-pairs'
 "显示缩进线
 Plug 'Yggdroot/indentLine'
 "主题
@@ -88,13 +88,13 @@ Plug 'sainnhe/sonokai'
 call plug#end()
 
 autocmd VimEnter * :AirlineTheme sonokai
+g:sonokai_disable_italic_comment=1
 let g:gruvbox_contrast='soft'
 let g:gruvbox_number_column='bg1'
-let g:gruvbox_italic=1
+"let g:gruvbox_italic=1
 let g:gruvbox_invert_selection=0
 let g:gruvbox_invert_tabline= 0
 let g:indentLine_setColors = 0
-
 let g:sonokai_style = 'default'
 let g:sonokai_diagnostic_line_highlight = '1'
 let g:airline#extensions#tabline#formatter = 'default'
