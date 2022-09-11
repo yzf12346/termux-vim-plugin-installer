@@ -88,7 +88,7 @@ Plug 'sainnhe/sonokai'
 call plug#end()
 
 autocmd VimEnter * :AirlineTheme sonokai
-g:sonokai_disable_italic_comment=1
+let g:sonokai_disable_italic_comment=1
 let g:gruvbox_contrast='soft'
 let g:gruvbox_number_column='bg1'
 "let g:gruvbox_italic=1
