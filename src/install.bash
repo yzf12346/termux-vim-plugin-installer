@@ -41,7 +41,7 @@ readonly CURRENT_DIR
 
 # 变量
 args=$@
-vimPlugs="coc-snippets coc-pairs"
+vimPlugs=""
 aptList="apt install vim-python -y"
 
 # 复制plug.vim,.vimrc
