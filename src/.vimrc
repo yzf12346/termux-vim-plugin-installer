@@ -107,6 +107,7 @@ autocmd vimenter * set background=dark
 map <C-n> :NERDTreeToggle<CR>
 
 " coc
+let g:coc_global_extensions = ['coc-json', 'coc-snippets','coc-pairs']
 
 "set internal encoding of vim, not needed on neovim, since coc.nvim using some
 " unicode characters in the file autoload/float.vim
